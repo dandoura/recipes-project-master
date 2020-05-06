@@ -103,6 +103,7 @@ Create Css module to our app to capsulate for the css to a component
 3.	Import the module you've just created from within your component. And import style from recipe module .css in recipe.js.
 4.	Refer to it as a normal property from the styles object, like: image, recipe.
 
+
 recipe {
     border-radius: 10px;
     box-shadow: 0px 5px 20px teal;
@@ -120,6 +121,7 @@ recipe {
      width: 50%;
      height: 50%;
  }
+ 
 Conclusion:
 After wrapping up, the page will look like this
 
