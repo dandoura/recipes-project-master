@@ -1,138 +1,68 @@
-# recipes-project-master
-Egyptian Recipes using React
-As it said ancient Egypt was a wonderful place to grow food because the civilization grew around the fertile Nile river. Today Egyptian still grow their own food in Egypt soil and have different recipes that are healthy and delicious.
-In this project I’ll explain how to create and search for recipes.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Table of Contents:
-1.	Prerequisites:
-A.	Download npm.
-B.	Install React.
-2.	The parent component.
-3.	Recall recipes information from Api.
-4.	Run npm start.
-5.	 Components.
-6.	Style
-Conclusion
+## Available Scripts
 
-1.	Prerequisites:
-                   Create-React-App
+In the project directory, you can run:
 
-Use node package to download and manage packages in your application from Nodejs.org. Download the Windows installer 
- 
- Next, run these two commands and name your project: 
-npm install -g create-react-app
-create-react-app recipesProject
-I named my project recipesProject, but you can name it whatever you like.
+### `npm start`
 
-2.	The parent Component:
-Open App.js and delete everything.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-import React from "react";
-import Recipe from ‘/Recipe';
-import "./App.css";
-const App = () => {
-return (
-     <div className="App">
-        
-      </div>
-    );
-  }
-}
-export default App;
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-3.	Recalling information for recipes from Api like Edaman.
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-Import and configure this API fetching library in App.js file.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4.	run npm start in command line. Then open http://localhost:3000/ to see your 
-app.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-5.	Components.
-In the component we are going to build our app in a simple language and fetching the information from the Api.
-In the first two line we are importing the react class, which helps make components, then we import some more child components. These are 
-            Key, title, description, and images that import from recipe.js
-            All the requested we made are set and stored in recipes.           
-       Child components.       
-Create components folder inside your app under src folder and name it Recipe.js will 
-import react from react
-const Recipe = () => {
-then add what you want in your recipe like title, description, image and
- export default recipes
-6.	Styling
-In my project I use the formatting model that uses the size of the margin, border and padding
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-.App{
-  min-height: 50vh;
-  background-image: linear-gradient(
-    90deg, 
-    #74EBD5 0%,
-    #9FACE6 100%
-    );
-  } 
-   .search-form {
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-    .search-bar {
-     width: 20%;
-     border-style: double;
-     padding: 10px;
-   }
-    .search-button {
-      background-color: #9FACE6;
-      border: black;
-      border-style: double;
-      padding: 10px 20px;
-      color: black;    
-    }
-    .recipes {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-Create Css module to our app to capsulate for the css to a component 
-1.	First, create a normal CSS file. 
-2.	Add CSS classes to this file. 
-3.	Import the module you've just created from within your component. And import style from recipe module .css in recipe.js.
-4.	Refer to it as a normal property from the styles object, like: image, recipe.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-recipe {
-    border-radius: 10px;
-    box-shadow: 0px 5px 20px teal;
-    margin: 10px;
-    display: inline flexbox;
-    flex-direction: row;
-    justify-content: center;
-    background: lavender;
-    align-items: center;
-    min-width: 40px;
-}
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
- . image{
-     border-radius: 40%;
-     width: 50%;
-     height: 50%;
- }
-Conclusion:
-After wrapping up, the page will look like this
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
- 
- 
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+### Making a Progressive Web App
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+### Advanced Configuration
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
+### Deployment
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
