@@ -125,7 +125,7 @@ Conclusion:
 
 After wrapping up, the page will look like this
 
-![](image2.png)
+![](image1.docx)
  
  
 
