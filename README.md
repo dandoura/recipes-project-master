@@ -124,7 +124,7 @@ recipe {
 Conclusion:
 
 After wrapping up, the page will look like this
-![]i.docx
+![](https://github.com/dandoura/recipes-project-master/blob/master/image%201.docx)
 
  
  
