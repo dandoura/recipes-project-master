@@ -125,7 +125,6 @@ Conclusion:
 
 After wrapping up, the page will look like this
 
-![](image1.docx)
  
  
 
