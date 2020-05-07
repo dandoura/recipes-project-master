@@ -124,7 +124,7 @@ recipe {
 Conclusion:
 
 After wrapping up, the page will look like this
-![](image(2).png)
+![](image/image1.png)
 
  
  
