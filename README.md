@@ -124,6 +124,7 @@ recipe {
 Conclusion:
 
 After wrapping up, the page will look like this
+![]i.docx
 
  
  
